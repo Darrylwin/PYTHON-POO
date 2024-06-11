@@ -7,4 +7,3 @@ except:
     print("ERREUR! Vous devez entrer un nombre")
 else:
     print(f"Vous vous appelez {nom}. Vous avez {int(age)} ans et l'an prochain, vous aurez {age_prochain} ans")
-è

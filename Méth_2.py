@@ -13,7 +13,7 @@ class BasketTeam:
 
     @classmethod
     def from_string(cls, stats_as_string):
-        data = split
+        return cls.split()
 
     def get_fined(self):
         self.totalfines += BasketTeam.fine_account
@@ -26,6 +26,10 @@ class BasketTeam:
     def set_fine_account(cls, amount):
         cls.fine_account = amount
         print(cls)
+
+    @classmethod
+    def split(cls):
+        pass
 
 
 # Programme Principal
